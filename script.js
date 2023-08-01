@@ -1,3 +1,11 @@
+// preload images
+const images = ['images/bounce/1_1.png', 'images/bounce/1_2.png', 'images/bounce/2_1.png', 'images/bounce/2_2.png', 'images/bounce/3_1.png', 'images/bounce/3_2.png', 'images/bounce/4_1.png', 'images/bounce/4_2.png', 'images/jump/1_1.png', 'images/jump/1_2.png', 'images/jump/2_1.png', 'images/jump/2_2.png', 'images/jump/3_1.png', 'images/jump/3_2.png', 'images/omok/1_1.png', 'images/omok/1_2.png', 'images/omok/2_1.png', 'images/omok/2_2.png', 'images/omok/3_1.png', 'images/omok/3_2.png', 'images/omok/4_1.png', 'images/omok/4_2.png', 'images/omok/5_1.png', 'images/omok/5_2.png'];
+let loadedImages = [];
+for (let i = 0; i < images.length; i++) {
+    loadedImages[i] = new Image();
+    loadedImages[i].src = images[i];
+}
+
 // section color themes
 const themes = {
     'omok': [
