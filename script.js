@@ -1,3 +1,4 @@
+// section color themes
 const themes = {
     'omok': [
         {
@@ -66,16 +67,19 @@ const themes = {
         },
     ],
 };
-
-let themeIndex = 0;
+let themeIndex = {
+    'omok': 0,
+    'bounce': 0,
+    'jump': 0,
+};
 function changeTheme(section) {
-    themeIndex++;
-    if (themeIndex >= Object.keys(themes[section]).length) {
-        themeIndex = 0;
+    themeIndex[section]++;
+    if (themeIndex[section] >= Object.keys(themes[section]).length) {
+        themeIndex[section] = 0;
     }
 
-    document.getElementById(`${section}1`).src = `./images/${section}/${themeIndex}_1.png`;
-    document.getElementById(`${section}2`).src = `./images/${section}/${themeIndex}_2.png`;
-    document.getElementById(section).style.backgroundColor = themes[section][themeIndex]['background-color'];
-    document.getElementById(section).style.color = themes[section][themeIndex]['color'];
+    document.getElementById(`${section}1`).src = `images/${section}/${themeIndex[section]}_1.png`;
+    document.getElementById(`${section}2`).src = `images/${section}/${themeIndex[section]}_2.png`;
+    document.getElementById(section).style.backgroundColor = themes[section][themeIndex[section]]['background-color'];
+    document.getElementById(section).style.color = themes[section][themeIndex[section]]['color'];
 }
