@@ -63,3 +63,9 @@ h1 {
 .section:nth-child(7) {
     background-color: #fcfcfc;
 }
+
+footer {
+    background-color: #fcfcfc;
+    text-align: center;
+    padding-bottom: 10px;
+}
