@@ -10,7 +10,7 @@
     <img src="images/colors/2.png" height="200"/>
 </div>
 
-This repository is a collection of projects I created in my AP Computer Science Principles class during my sophomore year. We were given around two to four weeks of work time during class for each project. I thoroughly enjoyed my time making these projects and often found myself working on them outside of class out of my interest. Having been fascinated by programming ever since I was young, this class enabled me to expand my knowledge and spark my creativity.
+This repository  is a collection of projects I created in my AP Computer Science Principles class during my sophomore year. We were given around two to four weeks of work time during class for each project. I thoroughly enjoyed my time making these projects and often found myself working on them outside of class out of my interest. Having been fascinated by programming ever since I was young, this class not only enabled me to expand my knowledge but also ignited a sense of creativity within me.
 
 This repository includes:
 * omok
