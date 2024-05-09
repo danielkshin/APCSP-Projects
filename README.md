@@ -1,13 +1,13 @@
 # APCSP Projects
 <div float="left">
-    <img src="images/omok/5_2.png" height="200"/>
-    <img src="images/bounce/1_2.png" height="200"/>
-    <img src="images/jump/3_2.png" height="200"/>
+    <img src="docs/images/omok/5_2.png" height="200"/>
+    <img src="docs/images/bounce/1_2.png" height="200"/>
+    <img src="docs/images/jump/3_2.png" height="200"/>
 </div>
 <div float="left">
-    <img src="images/wordle/2.png" height="200"/>
-    <img src="images/novel/2.png" height="200"/>
-    <img src="images/colors/2.png" height="200"/>
+    <img src="docs/images/wordle/2.png" height="200"/>
+    <img src="docs/images/novel/2.png" height="200"/>
+    <img src="docs/images/colors/2.png" height="200"/>
 </div>
 
 This repository  is a collection of projects I created in my AP Computer Science Principles class during my sophomore year. We were given around two to four weeks of work time during class for each project. I thoroughly enjoyed my time making these projects and often found myself working on them outside of class out of my interest. Having been fascinated by programming ever since I was young, this class not only enabled me to expand my knowledge but also ignited a sense of creativity within me.
