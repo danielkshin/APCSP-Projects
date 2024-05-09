@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="height=device-height, initial-scale=1.0">
+    <title>APCSP Projects</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div>
+        <div class="section">
+            <h1>APCSP Projects</h1>
+            <b>Daniel Shin</b>
+            <p>This is a collection of projects I created in my AP Computer Science Principles class during my sophomore
+                year. We were given around two to four weeks of work time during class for each project. I thoroughly
+                enjoyed my time making these projects and often found myself working on them outside of class out of my
+                interest. Having been fascinated by programming ever since I was young, this class not only enabled me
+                to expand my knowledge but also ignited a sense of creativity within me.</p>
+            <p>This collection includes:</p>
+            <ul>
+                <li><a href="#omok">omok</a></li>
+                <li><a href="#bounce">bounce!</a></li>
+                <li><a href="#jump">jump!</a></li>
+                <li><a href="#wordle-console">WORDLE console</a></li>
+                <li><a href="#whatever-this-game-is-called-an-interactive-novel">whatever this game is called (an
+                        interactive novel)</a></li>
+                <li><a href="#colors">colors</a></li>
+            </ul>
+            <p>The source code for each project is available in the <a
+                    href="https://github.com/danielkshin/APCSP-Projects" target="_blank">repository</a>, which has
+                unedited code from my sophomore year. I plan on cleaning up and reworking some of the projects in the
+                future.</p>
+        </div>
+        <div class="section" id="omok">
+            <h1>omok</h1>
+            <p>
+                <a href="https://github.com/danielkshin/APCSP-Projects/tree/main/omok" target="_blank">source code</a>
+                <span onclick="changeTheme('omok')" class="themeButton">change theme</span>
+            </p>
+            <p>
+                <img src="images/omok/0_1.png" height="300" id="omok1" />
+                <img src="images/omok/0_2.png" height="300" id="omok2" />
+            </p>
+            <p>This was the first, <i>actual</i> project we were assigned. "Projects" before this one had instructions
+                to follow and did not allow much freedom. This project was our midterm project for the first semester,
+                and we were free to create anything using the <a href="https://docs.python.org/3/library/turtle.html"
+                    target="_blank">Turtle</a> library.</p>
+            <p>I had ambitious ideas of making platformer games (which I would eventually accomplish for my <a
+                    href="#colors">final project</a>), but with the limitations of using Turtle, I quickly scrapped the
+                idea. After brainstorming, I settled on making <a href="https://en.wikipedia.org/wiki/Gomoku"
+                    target="_blank">Omok</a> (also known as Gomoku), a two-player strategy board game where players take
+                turns placing stones on a 15 by 15 board to form a five-in-a-row horizontally, vertically, or
+                diagonally.</p>
+            <p>Creating the board and the stones was quite simple, but coming up with a way to place the stones on the
+                grid and check for 5-in-a-rows was quite tricky. I did get it in the end (albeit a very messy and
+                unoptimized code), which allowed me to have enough time to add color themes to the game. This would
+                become a regular feature I would add in later projects.</p>
+        </div>
+        <div class="section" id="bounce">
+            <h1>bounce!</h1>
+            <p>
+                <a href="https://github.com/danielkshin/APCSP-Projects/tree/main/bounce" target="_blank">source code</a>
+                <span onclick="changeTheme('bounce')" class="themeButton">change theme</span>
+            </p>
+            <p>
+                <img src="images/bounce/0_1.png" height="300" id="bounce1" />
+                <img src="images/bounce/0_2.png" height="300" id="bounce2" />
+            </p>
+            <p>Why yes, of course, I made a blatant <a href="https://en.wikipedia.org/wiki/Flappy_Bird"
+                    target="_blank">Flappy Bird</a> clone. Well, sort of.</p>
+            <p>For my second project, which was our semester one final project, we were now allowed to use the <a
+                    href="https://www.pygame.org/" target="_blank">Pygame</a> library. This opened up doors of
+                possibilities, but since I was still fairly new to this library, I wanted to test the waters. Soon
+                enough, I found myself working on a game that was quite similar to Flappy Bird.</p>
+            <p>This project was a huge leap from my last project as I had to work with physics, collisions, and
+                animations. I faced many bugs and problems, but in the end, I was able to finish the project. I am quite
+                proud of what I was able to make, especially the bouncing text and the explosive death animation. For
+                the game style, I decided to use only shapes and a minimal color palette with multiple themes, which
+                made the game look even more polished.</p>
+        </div>
+        <div class="section" id="jump">
+            <h1>jump!</h1>
+            <p>
+                <a href="https://github.com/danielkshin/APCSP-Projects/tree/main/jump" target="_blank">source code</a>
+                <span onclick="changeTheme('jump')" class="themeButton">change theme</span>
+            </p>
+            <p>
+                <img src="images/jump/0_1.png" height="300" id="jump1" />
+                <img src="images/jump/0_2.png" height="300" id="jump2" />
+            </p>
+            <p>This project was the first project I collaborated on with another person. It was also my first project
+                for the second semester.</p>
+            <p>At the time, I was invested in a game called <a href="https://www.habby.com/game/detail/penguin"
+                    target="_blank">Penguin Isle</a>. This game had a 3D mini-game where the player would control a
+                penguin to jump between platforms. The player would hold the screen down and release it to make the
+                penguin jump. Based on how long the screen was held down, the penguin would jump a certain distance.
+                This mini-game inspired me to create a similar game in 2D.</p>
+            <p>With my experience in making <a href="#bounce">bounce!</a>, I found physics and collisions more easy to
+                implement in the game. I had moments in development where I was stuck, but eventually, I made it through
+                the end. Like bounce!, I used a similar minimalistic style with multiple color themes. On top of
+                everything, it was a really fun experience to create a game with someone else and collaborate with them.
+            </p>
+        </div>
+        <div class="section" id="wordle-console">
+            <h1>WORDLE console</h1>
+            <p>
+                <a href="https://github.com/danielkshin/APCSP-Projects/tree/main/WORDLE-console" target="_blank">source
+                    code</a>
+            </p>
+            <p>
+                <img src="images/wordle/1.png" height="300" />
+                <img src="images/wordle/2.png" height="300" />
+            </p>
+            <p>This project was assigned when the word puzzle game <a href="https://en.wikipedia.org/wiki/Wordle"
+                    target="_blank">Wordle</a> was at its peak of popularity. We were assigned to create our own version
+                of Wordle. For this project, I decided not to use either <a
+                    href="https://docs.python.org/3/library/turtle.html" target="_blank">Turtle</a> or <a
+                    href="https://www.pygame.org/" target="_blank">Pygame</a> as I wanted to recreate the game on the
+                console.</p>
+            <p>It was really fun trying to recreate almost every aspect of the game in the limited console window. I
+                used <a href="https://en.wikipedia.org/wiki/ANSI_escape_code" target="_blank">ASNI escape codes</a> to
+                give letters colors as well as edit the console text. I also found the actual Wordle words list and used
+                it. Creating a way to check the guesses was the most tricky part and took a lot of trial and error.
+                However, once the main gameplay was done, I was free to add whatever I wanted to like a menu, a help
+                screen, a statistics screen, a keyboard, and even text animations! I really enjoyed this project.</p>
+        </div>
+        <div class="section" id="whatever-this-game-is-called-an-interactive-novel">
+            <h1>whatever this game is called (an interactive novel)
+            </h1>
+            <p>
+                <a href="https://github.com/danielkshin/APCSP-Projects/tree/main/whatever-this-game-is-called"
+                    target="_blank">source code</a>
+            </p>
+            <p>
+                <img src="images/novel/1.png" height="300" />
+                <img src="images/novel/2.png" height="300" />
+            </p>
+            <p>This project was another collaboration project and we were assigned to create an interactive novel.</p>
+            <p>For this project, I took inspiration from an interactive novel game series called <a
+                    href="https://en.wikipedia.org/wiki/Ace_Attorney" target="_blank">Ace Attorney</a>. This project was
+                definitely interesting and brought many new experiences. For the first time, I created a
+                scrolling speech system, option selection system, achievement system, and even my own script structure
+                system. Furthermore, this project was also the first game where I used assets so I had to learn how to
+                load the images properly. Overall, I was proud of the different game mechanics that I had managed to
+                implement.
+            </p>
+            <p>The most important part of an interactive novel game is the story. My initial idea for the story was
+                <em>most definitely not</em> a dating simulator. However, that was what my partner decided to write
+                about.
+            </p>
+            <p>This game has nine endings (including a secret one).</p>
+        </div>
+        <div class="section" id="colors">
+            <h1>colors</h1>
+            <p>
+                <a href="https://github.com/danielkshin/APCSP-Projects/tree/main/colors" target="_blank">source code</a>
+                <a href="https://danielkshin.github.io/colors/" target="_blank">play remake</a>
+            </p>
+            <p>
+                <img src="images/colors/1.png" height="300" />
+                <img src="images/colors/2.png" height="300" />
+                <img src="images/colors/3.png" height="300" />
+            </p>
+            <p>Our semester two final project ended up being the project we would submit as the Create Performance Task
+                for AP Computer Science Principles. I decided to create an idea that I had in the back of my mind ever
+                since I started the course: a platformer game.</p>
+            <p>I based the game around the theme of color, which had been prominent throughout my projects. Working on
+                this project was a whole new experience. I had to come up with level designs, a level loading system, a
+                player collision system, and more. However, with each challenge, I found joy in overcoming and finding
+                the solution. In the end, I managed to create a puzzle platformer with seven intricately crafted levels
+                (some of which were tricky to beat even for me). I also wanted to create an in-game text system, but I
+                was limited by time and had to use the console window for text. I ended up remaking the game two years
+                later with <a href="https://p5js.org/" target="_blank">p5.js</a>, adding the improvements I wanted while
+                maintaining the core gameplay to allow the player to experience the original game. This version of
+                colors can now be <a href="https://danielkshin.github.io/colors/" target="_blank">played online</a>.</p>
+            <p>In this game, the player controls a dull colored block searching for colors. Every time the character
+                finds a new color, it cannot touch it. Only when the player completes the level, the character can touch
+                the color safely and unlock the ability to change to that color. Since the character can go through
+                blocks of the same color, this puzzle game not only requires the player to make precise movements and
+                jumps but also requires them to use switch to different colors at the right time.</p>
+        </div>
+    </div>
+    <footer>
+        created by <a href="https://github.com/danielkshin/" target="_blank">daniel shin</a>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

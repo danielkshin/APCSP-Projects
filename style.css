@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500;700&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: inherit;
+}
+
+h1 {
+    margin-bottom: 0;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f0f0f0;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #969696;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #646464;
+}
+
+.themeButton {
+    cursor: pointer;
+    text-decoration: underline;
+    user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+}
+
+.section {
+    padding: 10%;
+}
+
+.section:nth-child(1) {
+    background-color: #91d483;
+}
+
+.section:nth-child(2) {
+    background-color: #e1b954;
+    color: #000000;
+}
+
+.section:nth-child(3) {
+    background-color: #2f6262;
+    color: #afb9b4;
+}
+
+.section:nth-child(4) {
+    background-color: #80a6a0;
+    color: #e1ddbf;
+}
+
+.section:nth-child(5) {
+    background-color: #1c1c1c;
+    color: #f4f4f4;
+}
+
+.section:nth-child(6) {
+    background-color: #f7c8de;
+}
+
+.section:nth-child(7) {
+    background-color: #fcfcfc;
+}
+
+footer {
+    background-color: #fcfcfc;
+    text-align: center;
+    padding-bottom: 10px;
+}
